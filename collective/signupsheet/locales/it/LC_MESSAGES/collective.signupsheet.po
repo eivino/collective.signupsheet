@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
-"POT-Creation-Date: 2015-02-06 14:31+0000\n"
+"POT-Creation-Date: 2015-02-10 13:07+0000\n"
 "PO-Revision-Date: 2013-01-16 13:45 +ZONE\n"
 "Last-Translator: Luca Bellenghi <luca.bellenghi@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppo@redturtle.it>\n"
@@ -413,8 +413,8 @@ msgid "unconfirmed"
 msgstr "da confermare"
 
 #: ../browsers/view_registrants.pt:32
-msgid "unconfirmed (in wailing list)"
-msgstr "da confermare (in lista d'attesa)"
+msgid "unconfirmed (in waiting list)"
+msgstr ""
 
 #. Default: "Export Registrants"
 #: ../browsers/registrants_data_export.pt:13

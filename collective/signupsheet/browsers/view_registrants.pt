@@ -29,7 +29,7 @@
             <span tal:replace="python: len(confirmed_registrants)"/>,
             <span i18n:translate="">unconfirmed</span>
             <span tal:replace="python: len(unconfirmed_registrants)"/>,
-            <span i18n:translate="">unconfirmed (in wailing list)</span>
+            <span i18n:translate="">unconfirmed (in waiting list)</span>
             <span tal:replace="python: len(unconfirmed_registrants_waiting)"/>
         </tal:if>
 

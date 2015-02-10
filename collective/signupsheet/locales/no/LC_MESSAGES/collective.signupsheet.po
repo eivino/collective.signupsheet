@@ -1,8 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-01-28 10:26+0000\n"
-"PO-Revision-Date: 2015-02-06 15:31+0100\n"
+"POT-Creation-Date: 2015-02-10 13:07+0000\n"
+"PO-Revision-Date: 2015-02-10 14:10+0100\n"
+"Last-Translator: Eivind Sætre <eivind.saetre@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,8 +13,6 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
-"Last-Translator: Eivind Sætre <eivind.saetre@gmail.com>\n"
-"Language-Team: \n"
 "Language: no\n"
 "X-Generator: Poedit 1.7.4\n"
 
@@ -254,10 +254,10 @@ msgstr "Ingen påmeldte"
 msgid "pfg_manager_notification_mailer"
 msgstr "Melding til formularets administrator"
 
-#. Default: "E-Mails Form Input for signup sheet editors: this mailer send notifications to signupsheet managers"
+#. Default: "E-Mails Form Input for signup sheet editors: this mailer sends notifications to signupsheet managers"
 #: ../adapters/initialize_signup_sheet_form.py:136
 msgid "pfg_manager_notification_mailer_description"
-msgstr "E-post til redaktører for registreringsformularet: Denne funksjonen sender en e-postmelding til formularets administrator/redaktør\""
+msgstr "E-post til redaktører for registreringsformularet: Denne funksjonen sender en e-postmelding til formularets administrator/redaktør"
 
 #. Default: "Registrants"
 #: ../adapters/initialize_signup_sheet_form.py:82
@@ -373,8 +373,9 @@ msgstr "Send en melding til en gruppe påmeldte"
 msgid "subscription_form_title"
 msgstr "Registrer deg til"
 
-#. Default: "<p>\n    Thank you for registering to <tal:title tal:replace=\"here/aq_inner/aq_parent/Title\"/>\n</p>\n\n<p tal:condition=\"request/review_state|nothing\">Your registration state is:\n    <tal:review_state tal:replace=\"request/review_state\" />\n</p>\n\n<p>You provided these informations:</p>"
+#. Default: "<p>\n    Thank you for registering to <tal:title tal:replace=\"here/aq_inner/aq_parent/Title\"/>\n</p>\n\n<p tal:condition=\"request/review_state|nothing\">Your registration state is:\n    <tal:review_state tal:replace=\"request/review_state\" />\n</p>\n\n<p>You provided the following information:</p>"
 #: ../adapters/initialize_signup_sheet_form.py:112
+#, fuzzy
 msgid "subscription_mail"
 msgstr ""
 "<p>\n"
@@ -406,11 +407,11 @@ msgstr ""
 
 #: ../browsers/view_registrants.pt:30
 msgid "unconfirmed"
-msgstr "ubekreftede"
+msgstr "ubekreftet"
 
 #: ../browsers/view_registrants.pt:32
-msgid "unconfirmed (in wailing list)"
-msgstr "ubekreftede (på venteliste)"
+msgid "unconfirmed (in waiting list)"
+msgstr "ubekreftet (på venteliste)"
 
 #. Default: "Export Registrants"
 #: ../browsers/registrants_data_export.pt:13
