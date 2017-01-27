@@ -62,7 +62,7 @@ class RegistrantNotificationView(BrowserView):
         for registrant in registrants:
             email = getattr(getattr(storage, registrant, None), 'email', None)
             if email:
-                mail_host.secureSend(parsedMessage, mto=email, mfrom=mfrom, subject=subject)
+                mail_host.send(parsedMessage, mto=email, mfrom=mfrom, subject=subject)
                 cnt += 1
         plone_utils = getToolByName(self.context, 'plone_utils')
         plone_utils.addPortalMessage(_('sent_notification_count',
