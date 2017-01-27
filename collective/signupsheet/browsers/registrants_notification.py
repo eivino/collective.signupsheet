@@ -31,7 +31,11 @@ class RegistrantNotificationView(BrowserView):
         request = self.request
         registrants = form.get('registrants', [])
         subject = form.get('subject', None)
+        if type(subject) == type(u""):
+            subject = subject.encode("utf-8")
         message = form.get('message', None)
+        if type(message) == type(u""):
+            message = message.enecode("utf-8")
         
         if not registrants:
             self.errors['registrants'] = translate(_('registrants_required',
